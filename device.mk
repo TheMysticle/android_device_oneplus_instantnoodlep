@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.oplus
 
+
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
