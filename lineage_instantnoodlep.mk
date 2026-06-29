@@ -15,6 +15,9 @@ $(call inherit-product, device/oneplus/instantnoodlep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 PRODUCT_NAME := lineage_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep
 PRODUCT_MANUFACTURER := OnePlus
